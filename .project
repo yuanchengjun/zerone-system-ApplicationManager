@@ -3,6 +3,7 @@
 	<name>ApplicationManager</name>
 	<comment></comment>
 	<projects>
+		<project>Service</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

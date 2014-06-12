@@ -1,4 +1,4 @@
-#include "ApplicationInformation.h"
+#include <zerone/system/ApplicationManager/ApplicationInformation.h>
 
 namespace zerone {
 namespace system {
