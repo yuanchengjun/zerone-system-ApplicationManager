@@ -8,9 +8,10 @@ using namespace ::zerone::common;
 using namespace ::zerone::system;
 
 int main() {
-	ApplicationManager appmgr;
+	ApplicationManager applicationManager;
 	TService<::std::istream, ::std::ostream> service;
 	service.bind("getApplicationInformation",
-			&IApplicationManager::getApplicationInformation, appmgr);
+			&IApplicationManager::getApplicationInformation,
+			applicationManager);
 	return 0;
 }
